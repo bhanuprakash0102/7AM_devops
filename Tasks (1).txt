@@ -1,0 +1,15 @@
+
+1. Write a ansible playbook to install EC2 instance.
+
+2. Write a ansible playbook to create aws stack , example create vpc with 2 subnets (public,private) and launch ec2 with nginx app.
+
+3. Write a ansible playbook to create docker image with apache and hello-world application.
+
+4. Write a ansible playbook to create a kubernetes cluster(master,worker).
+
+5. Write a ansible playbook to install linux packages in inventory. Like Apache, wget, netstat.......
+	- Before installing validate OS version, example if OS is redhat based use 'yum' else use 'apt'
+
+6. Run ansible palybook task on a specific host. 
+	- Out of 10 tasks, run 5th task on node1 
+	
